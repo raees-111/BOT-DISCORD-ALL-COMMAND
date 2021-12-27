@@ -17,7 +17,7 @@ const button = require('discord-buttons');
 const disbut = require("discord-buttons")
 const { hangman } = require('reconlx')
 
-const prefix = "=";
+const prefix = "x_";
 const Nuggies = require('nuggies');
 Nuggies.connect(process.env.MONGO_URI);
 const client = new Client({
